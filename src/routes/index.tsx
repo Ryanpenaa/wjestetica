@@ -23,14 +23,10 @@ function Index() {
   return (
     <main style={{ minHeight: "100svh", background: "radial-gradient(ellipse at 50% 0%, #063858 0%, #080e16 40%, #050608 82%)", color: "#fff", fontFamily: "Inter, system-ui, Arial, sans-serif", padding: "18px 14px 32px" }}>
       <div style={{ maxWidth: 470, margin: "0 auto" }}>
-        <header style={{ border: "1px solid #23333d", background: "linear-gradient(145deg,#0e1b26,#090c11)", borderRadius: 24, padding: "14px 18px 22px", marginBottom: 16, textAlign: "left" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 13 }}>
-            <img src="/BANNER2.png" alt="Logo Estética WJ" style={{ width: 74, height: 74, objectFit: "contain", borderRadius: 14, background: "#05080b" }} />
-            <div><span style={{ fontSize: 10, color: "#78dfff", letterSpacing: "0.24em", fontWeight: 700 }}>ESTÉTICA AUTOMOTIVA</span><h1 style={{ fontWeight: 900, fontSize: 24, margin: "3px 0" }}>Estética WJ</h1></div>
-          </div>
-          <div style={{ fontSize: 10, fontWeight: 800, letterSpacing: "0.17em", color: "#25cfff", marginTop: 17 }}>SEU VEÍCULO SEMPRE NO MELHOR ESTADO</div>
-          <div style={{ fontWeight: 950, fontSize: "clamp(26px, 8vw, 38px)", lineHeight: 1.06, letterSpacing: "-0.035em", marginTop: 8 }}>CUIDADO QUE<br/><span style={{ color: "#17cafa" }}>FAZ DIFERENÇA</span></div>
-          <p style={{ fontSize: 13, lineHeight: 1.7, color: "#c5d1d8", margin: "10px 0 0" }}>Mais que uma lavagem: cuidado, acabamento e atenção em cada detalhe. 🚘 Carros • 🏍️ Motos • 🚐 Vans</p>
+        <header style={{ textAlign: "center", marginBottom: 22 }}>
+          <img src="/BANNER2.png" alt="Logo Estética WJ" style={{ display: "block", width: "100%", maxWidth: 340, height: 300, objectFit: "contain", margin: "10px auto 0", filter: "drop-shadow(0 3px 26px #0abdf966)" }} />
+          <h1 style={{ fontSize: 24, fontWeight: 800, letterSpacing: ".05em", margin: "0 0 7px", textTransform: "uppercase" }}>Estética WJ</h1>
+          <p style={{ color: "#b3c4d1", margin: "0 0 24px", fontSize: 14, lineHeight: 1.6 }}>Seu veículo merece esse cuidado!<br/>🚘 Carros &nbsp;•&nbsp; 🏍️ Motos &nbsp;•&nbsp; 🚐 Vans</p>
         </header>
         <section style={{ border: "1px solid #23333d", background: "#0c0f13", borderRadius: 24, padding: 14, marginBottom: 16 }}>
           <div style={{ display: "flex", alignItems: "end", justifyContent: "space-between", padding: "2px 2px 15px", gap: 12 }}>
